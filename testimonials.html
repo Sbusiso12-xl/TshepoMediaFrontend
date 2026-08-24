@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Testimonials — Tshepo Media Network</title>
+
+  <meta
+    name="description"
+    content="Read stories and experiences from the Tshepo Media Network community."
+  >
+
+  <link rel="icon" href="assets/logo.png" type="image/png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="container nav">
+
+      <a class="brand" href="index.html">
+        <img
+          src="assets/logo.png"
+          alt="Tshepo Media Network"
+        >
+      </a>
+
+      <nav class="nav-links">
+
+        <div class="blob-layer">
+          <span class="liquid-blob"></span>
+        </div>
+
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="podcast.html">Podcast</a>
+        <a href="opportunities.html">Opportunities</a>
+        <a href="community.html">Community</a>
+        <a href="partners.html">Partners</a>
+        <a class="active" href="testimonials.html">Testimonials</a>
+        <a href="contact.html">Contact</a>
+
+      </nav>
+
+      <button class="burger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+
+        <p class="eyebrow reveal">
+          Community Voices
+        </p>
+
+        <h1 class="reveal" data-delay="80">
+          Stories that give<br>
+          <span style="color:var(--cyan)">hope a voice.</span>
+        </h1>
+
+        <p class="reveal" data-delay="160">
+          Hear from people whose lives have been touched by the
+          Tshepo Media Network community.
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- Testimonials -->
+    <section class="block">
+
+      <div class="container">
+
+        <div class="section-head reveal">
+
+          <h2>What our community says</h2>
+
+          <p>
+            Real stories from people who have experienced the impact
+            of Tshepo Media Network.
+          </p>
+
+        </div>
+
+
+        <!-- Loading message -->
+        <div
+          id="testimonials-loading"
+          class="testimonial-status"
+        >
+          Loading testimonials...
+        </div>
+
+
+        <!-- Error message -->
+        <div
+          id="testimonials-error"
+          class="testimonial-status error"
+          style="display:none"
+        ></div>
+
+
+        <!-- Testimonials will be inserted here -->
+        <div
+          id="testimonial-list"
+          class="testimonial-grid"
+        ></div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Submit Testimonial -->
+    <section class="block" style="padding-top:0">
+
+      <div class="container">
+
+        <div class="section-head reveal">
+
+          <h2>Share your story</h2>
+
+          <p>
+            Have an experience you'd like to share?
+            Tell us how Tshepo Media Network has made a difference
+            in your journey.
+          </p>
+
+        </div>
+
+
+        <div class="card reveal">
+
+          <form
+            id="testimonial-form"
+            class="testimonial-form"
+          >
+
+            <!-- Name -->
+            <div>
+              <label for="testimonial-name">
+                Name
+              </label>
+
+              <input
+                id="testimonial-name"
+                name="name"
+                type="text"
+                placeholder="Your name"
+                maxlength="100"
+                required
+              >
+            </div>
+
+
+            <!-- Role -->
+            <div>
+              <label for="testimonial-role">
+                Role
+              </label>
+
+              <input
+                id="testimonial-role"
+                name="role"
+                type="text"
+                placeholder="e.g. Software Developer"
+                maxlength="100"
+              >
+            </div>
+
+
+            <!-- Story -->
+            <div>
+              <label for="testimonial-story">
+                Your Story
+              </label>
+
+              <textarea
+                id="testimonial-story"
+                name="story"
+                placeholder="Tell us about your experience..."
+                maxlength="2000"
+                required
+              ></textarea>
+            </div>
+
+
+            <p class="testimonial-note">
+              By submitting your story, you agree that Tshepo Media
+              Network may display it on this website.
+            </p>
+
+
+            <button
+              type="submit"
+              class="btn btn-primary"
+              id="testimonial-submit"
+            >
+              Share My Story
+            </button>
+
+
+            <div
+              id="testimonial-status"
+              class="testimonial-status"
+            ></div>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- Footer -->
+  <footer>
+
+    <div class="container foot-grid">
+
+      <div>
+
+        <a
+          class="brand"
+          style="display:inline-block;margin-bottom:16px"
+          href="index.html"
+        >
+          <img
+            src="assets/logo.png"
+            alt="Tshepo Media Network"
+          >
+        </a>
+
+        <p>
+          Tshepo Media Network connects communities with verified
+          employment, education, business and development
+          opportunities — giving hope a voice.
+        </p>
+
+      </div>
+
+
+      <div>
+
+        <h4>Explore</h4>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="podcast.html">Podcast</a></li>
+          <li><a href="opportunities.html">Opportunities</a></li>
+          <li><a href="community.html">Community</a></li>
+          <li><a href="partners.html">Partners</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+      </div>
+
+
+      <div>
+
+        <h4>Connect</h4>
+
+        <ul>
+          <li>
+            <a
+              href="https://www.youtube.com/@Tshepomedianetwork"
+              target="_blank"
+              rel="noopener"
+            >
+              YouTube Channel
+            </a>
+          </li>
+
+          <li>
+            <a href="contact.html">
+              Contact Us
+            </a>
+          </li>
+
+          <li>
+            <a href="partners.html">
+              Become a Partner
+            </a>
+          </li>
+
+          <li>
+            <a href="mailto:hello@tshepomedianetwork.co.za">
+              hello@tshepomedianetwork.co.za
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+
+
+    <div class="container copy">
+      © <span id="yr"></span>
+      Tshepo Media Network. Giving hope a voice.
+    </div>
+
+  </footer>
+
+
+  <button
+    class="to-top"
+    aria-label="Back to top"
+  >
+    ↑
+  </button>
+
+
+ <a
+  class="whatsapp-float"
+  href="https://wa.me/27655515864"
+  target="_blank"
+  rel="noopener"
+  aria-label="Chat with us on WhatsApp"
+>
+  <svg
+    width="28"
+    height="28"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+  >
+    <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.2h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm0 18.06h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.16 8.16 0 0 1-1.26-4.35c0-4.52 3.68-8.2 8.2-8.2a8.14 8.14 0 0 1 5.8 2.4 8.14 8.14 0 0 1 2.4 5.79c0 4.53-3.68 8.22-8.15 8.22Zm4.48-6.15c-.24-.12-1.45-.72-1.68-.8-.22-.08-.39-.12-.55.12-.16.24-.63.8-.78.97-.14.16-.29.18-.53.06-.24-.12-1.03-.38-1.96-1.21-.72-.65-1.21-1.44-1.36-1.68-.14-.24-.02-.37.11-.49.11-.11.24-.29.36-.43.12-.14.16-.24.24-.4.08-.16.04-.31-.02-.43-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.42-.55-.42h-.47c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05s.88 2.38 1 2.55c.12.16 1.73 2.64 4.19 3.7.59.25 1.05.4 1.4.52.59.19 1.13.16 1.55.1.47-.07 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.46-.28Z"/>
+  </svg>
+</a>
+
+  <!-- Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.2/velocity.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+
+  <!-- Your JS -->
+  <script src="js/main.js"></script>
+
+  <script>
+    document.getElementById("yr").textContent =
+      new Date().getFullYear();
+  </script>
+
+</body>
+</html>
