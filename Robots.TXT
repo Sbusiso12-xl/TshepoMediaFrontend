@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tshepomedianetwork.co.za/sitemap.xml
